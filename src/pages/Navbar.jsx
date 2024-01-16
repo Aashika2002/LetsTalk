@@ -45,9 +45,9 @@ function Navbar() {
                     <h3 class="text-white px-10 ">Let's Talk</h3>
                     </div>
                     <div class="flex align-items-right text-right">
-                        <button type="button" class="btn btn-link px-3 me-2 text-white ">
+                        {/* <button type="button" class="btn btn-link px-3 me-2 text-white ">
                             UserName
-                        </button>
+                        </button> */}
                         <NavLink to="/"> <button onClick={handleSubmit} type="button" class="btn btn-primary me-3">
                             Log Out
                         </button></NavLink>
