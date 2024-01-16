@@ -15,16 +15,6 @@ import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    // <Route path='/' component={<App />}>
-      
-    //   <Route path='/login' element={<SignUp />} />
-    //   <Route path='/signup' element={<CreateAccount />} />
-    //   <Route path="/test" element={<Test />} />
-
-    //   {/* <Route path="Mainpage" element={<Mainpage />} /> */}
-
-
-    // </Route>
 
     <Route path="/" element={<App />}>
             <Route path="/" element={<Mainpage />} />

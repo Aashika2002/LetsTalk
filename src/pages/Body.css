@@ -1,3 +1,11 @@
+
+@media only screen and (max-width: 600px) {
+  .input>input{
+    width:50%;
+  }
+}
+
+
 .section {
   display: flex;
   flex-direction: column;
@@ -7,31 +15,36 @@
 
 .main {
   
-  height: 395px;
-  width: 100%;
+  height: 450px;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin: 6rem 10rem; */
-  /* margin-bottom: 0rem; */
+ margin: 0.5rem;
+  margin-bottom: 0rem;
   /* overflow: hidden;
   overflow-y: scroll; */
   overflow: auto;
+  overflow-anchor: auto;
   scroll-behavior: smooth;
 
 }
 
 .chatfooter {
   margin-top: auto;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  /* position: fixed; */
+  margin: 0.2rem;
+ font-size:  0.5 rem;
+ 
 }
 
 .input {
-  padding: 0.4rem;
+  padding: 0.1rem;
+  margin: 0.5rem;
   /* background: rgba(28,30,58,1); */
   background: #fccb90;
 
@@ -41,26 +54,30 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
   display: flex;
-
+  justify-content: space-between;
   border-radius: 0.5rem;
-  width: 50rem;
+  width:20rem;
 }
 
 .input>input {
   background: transparent;
-  /* width: calc(100%-3rem); */
-  outline: none;
-  border: none;
-  padding: 1rem;
+   border: none;
+   outline:none;
+  padding: 0.5rem;
   color: white;
-  width: 100%;
+  display:flex;
+  justify-content: end;
+  /* width: 100%; */
 
 }
 
 button.send {
   background: transparent;
-  outline: none;
   border: none;
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+ 
 }
 
 
@@ -88,20 +105,11 @@ button.send {
 }
 
 .bot {
-  background: rgba(28, 30, 58, 1);
+  background: dodgerblue;
   width: fit-content;
   border-radius: 0.5rem;
   color: white;
 }
 
-.chatfooter {
 
-  margin: 0.5rem;
-  /* margin-bottom: 20px; */
-  /* padding: 0 1rem; */
-  font-size: 1 rem;
-}
 
-.chatfooter>p {
-  /* margin: 1rem 0; */
-}

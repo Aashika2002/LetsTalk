@@ -1,9 +1,9 @@
 import React from 'react'
-import './Footer.css'
+
 function Footer() {
     return (
         <div>
-            <footer class=" text-center gradient-custom-2">
+            <footer class=" text-center gradient-custom-2 ">
 
                 <div class=" p-3 text-white " >
                     © 2024 Copyright :
